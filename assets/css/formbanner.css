@@ -1,0 +1,130 @@
+.single-sidebar2 {
+    margin-bottom: 4%;
+    width: 65%;
+    margin-left: 40%;
+}
+.single-sidebar2 h3 {
+    background-color: #D6181E;
+    color: #fff;
+    font-size: 15px;
+    padding: 12px 5px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.sidebar-body2 {
+    line-height: 2;
+    background-color: whitesmoke;
+    padding-top: 15px;
+    padding-right: 15px;
+    padding-bottom: 25px;
+    padding-left: 15px;
+}
+.single-sidebar2 {
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.3);
+    color: #575757;
+    font-size: 15px;
+    margin-top: 45px;
+    background-color: whitesmoke;
+}
+/*FORMULARIO MODELOS*/
+.single-sidebar1 {
+    margin-bottom: 10%;
+    width: 65%;
+    margin-left: 40%;
+}
+.single-sidebar1 h3 {
+    background-color: #D6181E;
+    color: #fff;
+    font-size: 15px;
+    padding: 12px 5px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.sidebar-body1 {
+    line-height: 2;
+    background-color: whitesmoke;
+    padding-top: 15px;
+    padding-right: 15px;
+    padding-bottom: 25px;
+    padding-left: 15px;
+}
+.single-sidebar1 {
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.3);
+    color: #575757;
+    font-size: 15px;
+    margin-top: 45px;
+    background-color: whitesmoke;
+}
+/*COMPARTILHE*/
+.single-sidebar h3 {
+    background-color: #0c7037;
+    color: #fff;
+    font-size: 15px;
+    padding: 12px 5px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.sidebar-body {
+    line-height: 2;
+    padding: 30px 15px;
+}
+.single-sidebar {
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.3);
+    color: #575757;
+    font-size: 15px;
+    margin-top: 45px;
+}
+.sidebar-body .social-icons a i {
+    border: 1px solid #ddd;
+    border-radius: 50%;
+    color: #000;
+    height: 40px;
+    line-height: 40px;
+    transition: all 0.3s ease 0s;
+    width: 40px;
+}
+.sidebar-body i.fa {
+    font-size: 17px;
+    margin-right: 4px;
+    text-align: center;
+}
+.sidebar-body .social-icons a i:hover {
+    background-color: #0c7037;
+    border-color: #0c7037;
+    color: #fff;
+}
+@media (max-width: 1199px) and (min-width: 1015px){
+    
+}
+@media (max-width: 1015px) and (min-width: 992px){
+    
+}
+/*FORM BANNER*/
+@media (max-width: 991px){
+    .single-sidebar2 {
+        width: 45%;
+        margin-left: 70%;
+    }
+}
+@media (max-width: 990px){
+    .single-sidebar2 {
+        width: 100%;
+        margin-left: 0% !important;
+    }
+}
+/*FORM MODELOS*/
+@media (max-width: 991px){
+    .single-sidebar1 {
+        width: 45%;
+        margin-left: 70%;
+    }
+}
+@media (max-width: 990px){
+    .single-sidebar1 {
+        width: 100%;
+        margin-left: 0% !important;
+    }
+}

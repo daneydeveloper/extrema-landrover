@@ -1,0 +1,175 @@
+/*form-slider*/
+.automobile-banner .slick-dots li button {
+    background-color: #0C7037;
+}
+.automobile-banner-tabs .nav-tabs li {
+    width: 100%;
+}
+.btn-m9{
+    width: 100%;
+    font-weight: bold;
+    background-color: #0C7037;
+    color: white;
+    font-size: 18px;
+    border-radius: 0px;
+}
+.btn-models{
+    width: 100%;
+    font-weight: bold;
+    background-color: #0C7037;
+    color: white;
+    font-size: 18px;
+    border-radius: 0px;
+}
+.automobile-banner-tabs .tab-content {
+    padding: 15px 40px 18px;
+}
+.automobile-banner-tabs {
+    width: 70%;
+    /*margin-left: 35%;*/
+    margin-bottom: 10%;
+    background-color: #ffffffbf;
+    border-radius: 2px;
+}
+.form-control{
+    border-radius: 0px;
+    color: #999;
+}
+.form-control:focus {
+    border-color: #0c7037;
+    outline: 0;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgb(12, 112, 55);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(12, 112, 55, 0.83);
+}
+.automobile-banner-tabs .nav-tabs li a {
+    padding: 18px 23px 5px 21px;
+}
+.blue-transparent {
+    background-color: rgba(44, 46, 59, 0.02);
+}
+/*form-slider*/
+/*header*/
+.automobile-header-one {
+    background-color: #f5f5f5;
+    border-bottom: 4px solid #0C7037;
+}
+/*header*/
+/*body-color*/
+.automobile-fancy-title h2 > span:before {
+    display: none;
+}
+.automobile-fancy-title h2 > span:after {
+    display: none;
+}
+.automobile-fancy-title {
+    margin: 0px 0px 25px;
+}
+.automobile-car-dealsfull {
+    padding: 50px 0px 70px;
+}
+/*body-color*/
+/*modelos*/
+.invisivel{
+    visibility: hidden;
+}
+.automobile-main-content .widget {
+    margin: 50px 0px 50px;
+}
+.automobile-images-thumb .slick-arrow:hover {
+    background-color: rgba(12, 112, 55, 0.65);
+}
+/*modelos*/
+/*footer*/
+.automobile-footer-widget {
+    background: url(../images/footer-bg.jpg);
+}
+.automobile-footer-widget {
+    padding: 8px 0px 10px 0px;
+}
+.color-novaluz{
+    color: #0c7037;
+}
+.color-m9{
+    color: #5f77fb;
+}
+.footer{
+    font-weight: 500;
+    color: white !important;
+    font-size: 15px !important;
+}
+.footer-widget-transparent {
+    background-color: rgba(17, 18, 26, 0.87);
+}
+.automobile-main-content {
+    background-color: whitesmoke;
+}
+.automobile-footer-slider, .automobile-footer-one {
+    height: 190px;
+}
+/*footer*/
+/*esses 2 media screens serve so ser o tamanho do banner principal for do tamanho do banner dos modelos,
+ todavia se for possivel pedir para os designs fazerem um banner do tamanho requerido 
+ so basta comentar esses media screens que tudo ficara ok! Att. Lucas */
+ /*comeca aqui*/
+/*@media (max-width: 1199px) and (min-width: 1015px){
+    .automobile-banner-tabs {
+        width: 65%;
+    }
+    .automobile-banner-tabs .nav-tabs li a {
+        padding: 5px 23px 0px 21px;
+    }
+    .automobile-banner-tabs .tab-content {
+        padding: 6px 40px 35px;
+    }
+}
+@media (max-width: 1015px) and (min-width: 992px){
+    .automobile-banner-tabs {
+        width: 65%;
+    }
+    .automobile-banner-tabs .tab-content {
+        padding: 5px 40px 35px;
+    }
+    .automobile-banner-tabs .nav-tabs li a {
+        padding: 0px 23px 0px 21px;
+    }
+}*/
+/*termina aqui*/
+@media (max-width: 991px){
+    .automobile-banner-tabs {
+        width: 45%;
+        /*margin-left: 70%;*/
+    }
+    .automobile-banner-tabs .tab-content {
+        padding: 0px 40px 24px;
+    }
+}
+@media (max-width: 990px){
+    .automobile-banner-tabs {
+        width: 100%;
+        margin-left: 0%;
+    }
+}
+/*COMPARTILHE NAS REDES...*/
+/*@media (max-width: 990px) and (min-width: 768px){
+    .automobile-main-content .col-md-4, .automobile-main-content .col-md-3 {
+        float: none;
+        display: inline-block;
+        vertical-align: top;
+        margin-right: -4px;
+        width: 100%;
+    }
+}*/
+/*@media (max-width: 990px) and (min-width: 768px){
+    .automobile-logo {
+        width: 100%;
+        text-align: center;
+        margin: 10px 0px 10px;
+    }
+}
+@media (max-width: 767px){
+    .automobile-logo {
+        width: 100%;
+        text-align: center;
+        margin: 11px 0px 10px;
+    }
+}*/

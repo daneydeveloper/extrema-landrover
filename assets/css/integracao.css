@@ -1,0 +1,62 @@
+/*BOTAO NO FORM PARA FECHAR*/
+.deleteMeetingClose {
+    font-size: 1.5em;
+    cursor: pointer;
+    position: absolute;
+    right: 30px;
+    top: 5px;
+}
+/*BOTAO NO FORM PARA FECHAR*/
+label {
+    color: #f5f5f5;
+}
+.ngdialog.ngdialog-theme-default .ngdialog-content {
+	font-size: 1.1em;
+	background-color: rgba(255, 255, 255, 0);
+	line-height: 2.5em;
+	margin: 0 auto;
+	max-width: 32%;
+	margin-top: 5%;
+}
+.ngdialog-overlay {
+	background: rgba(0, 0, 0, 0.85);
+}
+.form-popup{
+	background-color: white !important;
+	padding-top: 25px !important;
+    padding-right: 25px !important;
+    padding-bottom: 15px !important;
+    padding-left: 25px !important;
+	/*box-shadow: 0px 1px 40px 0px #d6181e!important;*/
+}
+
+@media (max-width: 1034px) {
+	.ngdialog.ngdialog-theme-default .ngdialog-content {
+	    max-width: 40% !important;
+	}
+}
+@media (max-width: 889px) {
+      .ngdialog.ngdialog-theme-default .ngdialog-content {
+            max-width: 50% !important;
+      }
+}
+@media (max-width: 849px) {
+      .ngdialog.ngdialog-theme-default .ngdialog-content {
+            max-width: 55% !important;
+      }
+}
+@media (max-width: 700px) {
+      .ngdialog.ngdialog-theme-default .ngdialog-content {
+            max-width: 60% !important;
+      }
+}
+@media (max-width: 600px) {
+      .ngdialog.ngdialog-theme-default .ngdialog-content {
+            max-width: 70% !important;
+      }
+}
+@media (max-width: 425px) {
+      .ngdialog.ngdialog-theme-default .ngdialog-content {
+            max-width: 100% !important;
+      }
+}
